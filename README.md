@@ -2,6 +2,10 @@
 
 This extension helps Pokemon TCG Online players to redeem their codes.
 
+Many stores sell PTCGO codes in bulk. When ordered, you often receive a long list of codes to your email or on a website and manually copy-pasting them to the Online client is burdensome.
+
+With this extension, all you need is to select the text on the website or email with those codes, right click, select **Find Pokemon TCG redeem codes** and you'll get a much improved user experience.
+
 ## Features
 
 ### Context Menu
@@ -35,3 +39,7 @@ To develop, install [web-ext](https://github.com/mozilla/web-ext) and run `web-e
 To help testing the extension, in [tests/](tests/), you can run a local http server (for example with `python -m http.server 9000` or `npx http-server -p 9000`) to load an example page with a few already-used redeem codes.
 
 When it's running, you can open the extension on Firefox with `web-ext run --start-url localhost:9000 --bc` to automatically nagivate to local test page and open browser console for logs. 
+
+### Build
+
+To build, create a zip archive with `manifest.json`, `background.js`, `README.md`, `icons/` and `sidebar/` folders.
