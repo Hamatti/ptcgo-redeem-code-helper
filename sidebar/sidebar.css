@@ -1,0 +1,74 @@
+h1 {
+    padding-left: 1em
+}
+
+p {
+    padding-left: 1em;
+}
+
+table {
+    max-width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+thead th {
+    background: black;
+    color: white;
+    padding: 1em;
+}
+
+tbody td {
+    font-weight: 300;
+}
+
+tbody td:nth-child(2) button {
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 0.5em;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+tbody td.copied {
+    background: #119100;
+    color: white;
+    transition: background 0.4s;
+}
+
+tbody td {
+    padding: 1em;
+}
+
+td.copied + td.copy {
+    background: #119100;
+    color: white;
+    transition: background 0.4s;
+}
+
+#clear-area {
+    padding-left: 1em;
+    display: flex;
+    margin-bottom: 1em;
+}
+
+#clear-area div {
+    line-height: 30px;
+    height: 30px;
+}
+
+#clear-area button {
+    margin-left: 2em;
+    background: black;
+    color: white;
+    padding: 0.5em;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+details {
+    padding-left: 1em;
+}
