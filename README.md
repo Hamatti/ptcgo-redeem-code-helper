@@ -1,3 +1,4 @@
+![](icons/icon2x.png)
 # Pokemon TCG Online Redeem Code Helper extension for Firefox
 
 This extension helps Pokemon TCG Online players to redeem their codes.
@@ -10,7 +11,7 @@ With this extension, all you need is to select the text on the website or email 
 
 ### Context Menu
 
-![](docs/context-menu.png)
+![Firefox context menu next to a list of selected codes](docs/context-menu.png)
 
 Select text that includes PTCGO Redeem Codes – doesn't need to be **only** codes but any text – right click to open context menu and select **Find Pokemon TCG redeem codes**.
 
@@ -18,7 +19,7 @@ This will find all text that matches PTCGO Redeem Code pattern and opens up a si
 
 ### Sidebar
 
-![](docs/sidebar.png)
+![A sidebar with a selection of codes, some with green background and others with white](docs/sidebar.png)
 
 Click **Copy** to copy an individual code to the clipboard. There's no worry about missing some characters or copying an extra space.
 
