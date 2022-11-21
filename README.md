@@ -1,6 +1,10 @@
 ![](icons/icon2x.png)
 # Pokemon TCG Online Redeem Code Helper extension for Firefox
 
+[![Mozilla Add-on v.1.0.0](https://img.shields.io/amo/v/pokemon-tcg-online-code-helper?style=for-the-badge)](https://addons.mozilla.org/firefox/addon/pokemon-tcg-online-code-helper/)
+
+<a href="https://addons.mozilla.org/en-US/firefox/addon/pokemon-tcg-online-code-helper/"><img src="docs/get-the-addon-fx-apr-2020.svg" alt="Get the add-on from AMO" width="300" /></a>
+
 This extension helps Pokemon TCG Online players to redeem their codes.
 
 Many stores sell PTCGO codes in bulk. When ordered, you often receive a long list of codes to your email or on a website and manually copy-pasting them to the Online client is burdensome.
